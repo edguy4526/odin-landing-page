@@ -1,0 +1,30 @@
+.header {
+    background-color: #1F2937;
+    padding: 2em;
+    color: white;
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+}
+
+.header div {
+    text-align: right;
+    position: absolute;
+    right: 50px;
+}
+
+.header a:link {
+    color: white;
+}
+
+.header a:visited{
+    color: white;
+}
+
+.header a:hover {
+    color: white;
+}
+
+.header a:active {
+    color: white;
+}
