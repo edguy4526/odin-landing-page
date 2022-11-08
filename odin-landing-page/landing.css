@@ -63,3 +63,32 @@
     text-align: center;
     padding: 2em;
 }
+
+.info {
+    display: flex;
+    gap: 2em;
+    align-items: center;
+    padding-left: 5em;
+    padding-bottom: 5em;
+    padding-right: 5em;
+}
+
+.info div {
+    text-align: center;
+    flex-shrink: 1;
+}
+
+.movement {
+    text-align: center;
+    color: white;
+    background-image: url(movement.jpg);
+    filter: grayscale(100%);
+    padding-bottom: 25em;
+    background-repeat: no-repeat;
+    background-position: 2em 0em;
+}
+
+.quote {
+    padding-top: 15em;
+    padding-right: 30em;
+}
